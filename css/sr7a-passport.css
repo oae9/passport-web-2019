@@ -1,0 +1,72 @@
+/* COLOR PALETTE
+OA GRAY:     #36454F
+OA RED:      #E31837
+OA DARK RED: #650812
+OA GRAY 2:   #E6E7E8
+OA BLACK:    #030006
+OA BLUE:     #005596
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+html * {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.bar.bar-nav {
+  background-color: #E31837;
+  border-bottom: none;
+  color: #fff;
+}
+
+.bar.bar-nav a {
+  color: #fff;
+}
+
+.bar.bar-nav h1 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bar.bar-nav h1.logo {
+  background-color: transparent;
+  background-image: url("../images/AppBanner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60%;
+  color: transparent;
+  border: 0;
+  overflow: hidden;
+  text-indent: 100%;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.bar.bar-nav h1.logo:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 0;
+}
+
+.content {
+  background-color: #E6E7E8;
+}
+
+.content img.topbanner {
+  max-width: 90%;
+  margin: 0 5%;
+}
+
+.content>.table-view:first-child { margin-top: 0; }
+
+.content-padded {
+  margin-top: 60px;
+}
+
+.table-view .media-body {
+  line-height: 2em;
+  font-weight: bold;
+}
