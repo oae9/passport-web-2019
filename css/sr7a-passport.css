@@ -51,11 +51,12 @@ html * {
   width: 0;
 }
 
-.content {
-  background-color: #E6E7E8;
+header.bar + nav.bar {
+  top: 44px;
 }
 
-.content img.topbanner {
+img.topbanner,
+img.almostfullwidth {
   max-width: 90%;
   margin: 0 5%;
 }
@@ -63,10 +64,18 @@ html * {
 .content>.table-view:first-child { margin-top: 0; }
 
 .content-padded {
-  margin-top: 60px;
+  padding-top: 60px;
+}
+
+header.bar + nav.bar + .content-padded {
+  padding-top: 110px;
 }
 
 .table-view .media-body {
   line-height: 2em;
   font-weight: bold;
+}
+
+p.letter-date {
+  text-align: right;
 }
