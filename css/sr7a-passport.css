@@ -35,7 +35,7 @@ html * {
   background-image: url("../images/AppBanner.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 60%;
+  background-size: 250px 61px;
   color: transparent;
   border: 0;
   overflow: hidden;
