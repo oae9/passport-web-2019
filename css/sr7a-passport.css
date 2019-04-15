@@ -79,3 +79,23 @@ header.bar + nav.bar + .content-padded {
 p.letter-date {
   text-align: right;
 }
+
+table tr td {
+  font-size: 11px;
+}
+
+table tr td.timeslot {
+  padding-right: 20px;
+}
+
+table tr.note td {
+  color: #888;
+  font-style: italic;
+}
+
+table tr.daybreak td {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding-top:20px;
+}
