@@ -103,3 +103,9 @@ table tr.daybreak td {
 iframe {
   max-width: 100%;
 }
+
+b {
+  color: #030006;
+  display: block;
+  font-weight: 700;
+}
