@@ -64,11 +64,11 @@ img.almostfullwidth {
 .content>.table-view:first-child { margin-top: 0; }
 
 .content-padded {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
-header.bar + nav.bar + .content-padded {
-  padding-top: 110px;
+nav.bar + .content-padded {
+  padding-top: 60px;
 }
 
 .table-view .media-body {
@@ -98,4 +98,8 @@ table tr.daybreak td {
   font-weight: 700;
   text-align: center;
   padding-top:20px;
+}
+
+iframe {
+  max-width: 100%;
 }
